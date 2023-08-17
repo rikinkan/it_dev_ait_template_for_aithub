@@ -1,0 +1,57 @@
+{
+  "name": "it_dev_ait_template_for_aithub",
+  "description": "AIT template (docker image regist to remote)",
+  "source_repository": "https://hub.docker.com/r/qunomon/dev_template_remote_docker",
+  "version": "0.1",
+  "quality": "https://back-web.aithub.io/ait-hub/api/0.0.1/qualityDimensions/AIQM_Guideline/Coverage_for_distinguished_problem_cases",
+  "keywords": [
+    "AIT",
+    "Template"
+  ],
+  "references": [],
+  "licenses": [],
+  "inventories": [
+    {
+      "name": "iris_data",
+      "type": "dataset",
+      "description": "アヤメの分類データです",
+      "requirement": {
+        "format": [
+          "csv"
+        ]
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "name": "mean_column_name",
+      "type": "str",
+      "description": "sepal.width\nsepal.length\npetal.width\npetal.length",
+      "default_val": "sepal.width"
+    }
+  ],
+  "report": {
+    "measures": [
+      {
+        "name": "mean",
+        "type": "float",
+        "description": "mean of select column",
+        "structure": "single",
+        "min": "0"
+      }
+    ],
+    "resources": [
+      {
+        "name": "pairplot",
+        "type": "picture",
+        "description": "pairplot"
+      }
+    ]
+  },
+  "downloads": [
+    {
+      "name": "Log",
+      "description": "AIT実行ログ"
+    }
+  ]
+}
