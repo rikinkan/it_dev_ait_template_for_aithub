@@ -38,7 +38,7 @@
 
 # [uneditable]
 
-# In[1]:
+# In[ ]:
 
 
 # Determine whether to start AIT or jupyter by startup argument
@@ -155,7 +155,7 @@ if not is_ait_launch:
     
     manifest_genenerator = AITManifestGenerator(current_dir)
     manifest_genenerator.set_ait_name('it_dev_ait_template_for_aithub')
-    manifest_genenerator.set_ait_description('AIT開発テンプレート(AIT-HUB登録用)')
+    manifest_genenerator.set_ait_description('AIT開発テンプレート(AIT-HUB登録用) - AIT重複登録異常')
     manifest_genenerator.set_ait_source_repository('https://github.com/aistairc/qunomon/tree/main/ait_repository/ait/it_dev_ait_template_for_aithub')
     manifest_genenerator.set_ait_version('0.3')
     manifest_genenerator.add_ait_keywords('AIT')
