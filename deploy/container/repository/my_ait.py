@@ -157,12 +157,11 @@ if not is_ait_launch:
     manifest_genenerator.set_ait_name('it_dev_ait_template_for_aithub')
     manifest_genenerator.set_ait_description('AIT開発テンプレート(AIT-HUB登録用)')
     manifest_genenerator.set_ait_source_repository('https://github.com/aistairc/qunomon/tree/main/ait_repository/ait/it_dev_ait_template_for_aithub')
-    manifest_genenerator.set_ait_version('0.2')
+    manifest_genenerator.set_ait_version('0.3')
     manifest_genenerator.add_ait_keywords('AIT')
     manifest_genenerator.add_ait_keywords('Template')
     manifest_genenerator.set_ait_description('AIT template (docker image regist to remote)')
     manifest_genenerator.set_ait_source_repository('https://hub.docker.com/r/qunomon/dev_template_remote_docker')
-    manifest_genenerator.set_ait_version('0.1')
     manifest_genenerator.set_ait_quality('https://back-web.aithub.io/ait-hub/api/0.0.1/qualityDimensions/AIQM_Guideline/Coverage_for_distinguished_problem_cases')
     inventory_requirement_iris_data = manifest_genenerator.format_ait_inventory_requirement(format_=['csv'])
     manifest_genenerator.add_ait_inventories(name='iris_data', 

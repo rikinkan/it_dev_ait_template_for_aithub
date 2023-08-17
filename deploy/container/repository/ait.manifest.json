@@ -2,7 +2,7 @@
   "name": "it_dev_ait_template_for_aithub",
   "description": "AIT template (docker image regist to remote)",
   "source_repository": "https://hub.docker.com/r/qunomon/dev_template_remote_docker",
-  "version": "0.1",
+  "version": "0.3",
   "quality": "https://back-web.aithub.io/ait-hub/api/0.0.1/qualityDimensions/AIQM_Guideline/Coverage_for_distinguished_problem_cases",
   "keywords": [
     "AIT",
