@@ -1,0 +1,37 @@
+{
+    "AIT": {
+        "Name": "it_dev_ait_template_for_aithub",
+        "Version": "0.3"
+    },
+    "ExecuteInfo": {
+        "StartDateTime": "2023-08-17T22:26:37+0900",
+        "EndDateTime": "2023-08-17T22:26:40+0900",
+        "MachineInfo": {
+            "cpu_brand": "AMD Ryzen 5 3600 6-Core Processor",
+            "cpu_arch": "X86_64",
+            "cpu_clocks": "3.5932 GHz",
+            "cpu_cores": "10",
+            "memory_capacity": "8343990272"
+        }
+    },
+    "Result": {
+        "Measures": [
+            {
+                "Name": "mean",
+                "Value": "1.1993333333333336"
+            }
+        ],
+        "Resources": [
+            {
+                "Name": "pairplot",
+                "Path": "/usr/local/qai/mnt/ip/job_result/1/1/resources/pairplot/pairplot.png"
+            }
+        ],
+        "Downloads": [
+            {
+                "Name": "Log",
+                "Path": "/usr/local/qai/mnt/ip/job_result/1/1/downloads/Log/ait.log"
+            }
+        ]
+    }
+}
